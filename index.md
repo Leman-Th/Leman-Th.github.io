@@ -29,4 +29,4 @@ TBA
 
 <h2 id="organisers" class="section">Organisers</h2>
 
-Florent Krzakala (EPFL, IdePhics Lab.), and Bruno Loureiro (DI-ENS & CNRS)
+[Florent Krzakala](https://florentkrzakala.com/) (EPFL, IdePhics Lab.), and [Bruno Loureiro](https://brloureiro.github.io/) (DI-ENS & CNRS)

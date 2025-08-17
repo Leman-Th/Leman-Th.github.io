@@ -49,20 +49,33 @@ h1,h2,h3{line-height:1.2} h1{font-size:32px;margin:16px 0} h2{font-size:24px;mar
   display: block;
 }
 
-/* Lightbox (required for overlay) */
+/* Lightbox (overlay) */
 .lightbox-backdrop {
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.8);
-  display: none;                 /* hidden until opened */
+  display: none;
   align-items: center;
   justify-content: center;
   z-index: 2000;
 }
 .lightbox-backdrop.open { display: flex; }
 
-.lightbox-content { max-width: 90vw; max-height: 90vh; }
-.lightbox-content img { width: 100%; height: auto; display: block; }
+.lightbox-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox-content img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;   /* <-- ensures it scales proportionally */
+  display: block;
+}
 
 .lightbox-close {
   position: absolute;
