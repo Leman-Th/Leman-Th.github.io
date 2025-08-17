@@ -1,1 +1,17 @@
-"2026": []
+"2026":
+  - file: /assets/gallery/2026/opening.jpg
+    caption: Opening session
+  - file: /assets/gallery/2026/keynote_a.jpg
+    caption: Keynote A
+
+"2025":
+  - file: /assets/gallery/2025/panel.jpg
+    caption: Panel discussion
+  - file: /assets/gallery/2025/poster.jpg
+    caption: Poster session
+
+"2024":
+  - file: /assets/gallery/2024/audience.jpg
+    caption: Audience
+  - file: /assets/gallery/2024/group.jpg
+    caption: Group photo
