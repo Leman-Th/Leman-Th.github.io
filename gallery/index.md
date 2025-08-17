@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Gallery
+years: [2025, 2024]
 ---
 
 # Photo Gallery
@@ -10,24 +11,27 @@ Browse photos from past editions. Select a year to view thumbnails; click a tile
 <div class="gallery-toolbar">
   <label for="gallery-year">Year</label>
   <select id="gallery-year" aria-label="Select gallery year">
-    {%- assign years = site.data.gallery | keys | sort | reverse -%}
-    {%- for y in years -%}
+    {% for y in page.years %}
       <option value="{{ y }}">{{ y }}</option>
-    {%- endfor -%}
+    {% endfor %}
   </select>
 </div>
 
+{% assign all = site.static_files | where_exp: "f", "f.path contains '/assets/gallery/'" %}
+{% assign all = all | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.gif' or f.extname == '.webp'" %}
+{% assign all = all | sort: "path" %}
+
 <div class="gallery-grid">
-  {%- assign years = site.data.gallery | keys | sort | reverse -%}
-  {%- for y in years -%}
-    {%- assign items = site.data.gallery[y] -%}
-    {%- for img in items -%}
+  {% for y in page.years %}
+    {% assign prefix = '/assets/gallery/' | append: y | append: '/' %}
+    {% assign imgs = all | where_exp: "f", "f.path contains prefix" %}
+    {% for f in imgs %}
       <div class="gallery-group" data-year="{{ y }}">
-        <a href="{{ img.file | relative_url }}" data-full="{{ img.file | relative_url }}" data-alt="{{ img.caption | escape }}" class="gallery-item" title="{{ img.caption | escape }}">
-          <img loading="lazy" src="{{ img.thumb | default: img.file | relative_url }}" alt="{{ img.caption | escape }}" />
-          <div class="caption">{{ img.caption }}</div>
+        <a href="{{ f.path | relative_url }}" data-full="{{ f.path | relative_url }}" data-alt="{{ f.name | escape }}" class="gallery-item" title="{{ f.name | escape }}">
+          <img loading="lazy" src="{{ f.path | relative_url }}" alt="{{ f.name | escape }}" />
+          <div class="caption">{{ f.name }}</div>
         </a>
       </div>
-    {%- endfor -%}
-  {%- endfor -%}
+    {% endfor %}
+  {% endfor %}
 </div>
