@@ -26,9 +26,8 @@ Browse photos from past editions. Select a year to view thumbnails; click a tile
       {% if f.path contains prefix %}
         {% if f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.gif' or f.extname == '.webp' %}
           <div class="gallery-group" data-year="{{ y }}">
-            <a href="{{ f.path | relative_url }}" data-full="{{ f.path | relative_url }}" data-alt="{{ f.name | escape }}" class="gallery-item" title="{{ f.name | escape }}">
+            <a href="{{ f.path | relative_url }}" data-full="{{ f.path | relative_url }}" data-alt="{{ f.name | escape }}" class="gallery-item">
               <img loading="lazy" src="{{ f.path | relative_url }}" alt="{{ f.name | escape }}" />
-              <div class="caption">{{ f.name }}</div>
             </a>
           </div>
         {% endif %}
