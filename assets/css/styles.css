@@ -22,14 +22,14 @@ body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantar
 .nav-link { text-decoration: none; color: var(--text); padding: 8px 6px; border-radius: 8px; }
 .nav-link:hover { color: var(--accent); }
 
-/* Dropdown (click to open) */
-.dropdown { position: relative; }
-.dropbtn { background: transparent; border: 1px solid var(--border); padding: 6px 10px; border-radius: 8px; cursor: pointer; color: var(--text); }
-.dropbtn:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
-.dropdown-menu { position: absolute; right: 0; top: calc(100% + 8px); min-width: 160px; background: #fff; border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); padding: 8px; display: none; }
-.dropdown-menu a { display: block; padding: 8px 10px; border-radius: 8px; color: var(--text); text-decoration: none; }
-.dropdown-menu a:hover { background: #f8fafc; color: var(--accent); }
-.dropdown.open .dropdown-menu { display: block; }
+/* Dropdown (scoped to navbar only) */
+.navbar .dropdown { position: relative; }
+.navbar .dropbtn { background: transparent; border: 1px solid var(--border); padding: 6px 10px; border-radius: 8px; cursor: pointer; color: var(--text); }
+.navbar .dropbtn:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.navbar .dropdown-menu { position: absolute; right: 0; top: calc(100% + 8px); min-width: 160px; background: #fff; border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); padding: 8px; display: none; }
+.navbar .dropdown-menu a { display: block; padding: 8px 10px; border-radius: 8px; color: var(--text); text-decoration: none; }
+.navbar .dropdown-menu a:hover { background: #f8fafc; color: var(--accent); }
+.navbar .dropdown.open .dropdown-menu { display: block; }
 
 /* Mobile nav toggle */
 .nav-toggle { display: none; background: transparent; border: 1px solid var(--border); padding: 6px 10px; border-radius: 8px; }

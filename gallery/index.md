@@ -3,8 +3,9 @@ layout: default
 title: Gallery
 ---
 
-<h1>Photo Gallery</h1>
-<p class="lead">Browse photos from past editions. Select a year to view thumbnails; click a tile to open the original image.</p>
+# Photo Gallery
+
+Browse photos from past editions. Select a year to view thumbnails; click a tile to open the original image.
 
 <div class="gallery-toolbar">
   <label for="gallery-year">Year</label>

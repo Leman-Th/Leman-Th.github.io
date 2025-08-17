@@ -1,12 +1,13 @@
-LemanTh Root Website (Jekyll)
-=============================
+LemanTh Root Website (Jekyll) — v2
+==================================
 
-How to deploy:
-1) Unzip this folder and copy ALL files into the root of the `leman-th.github.io` repository.
-2) Commit and push to the default branch.
-3) In GitHub, ensure Pages is configured to deploy from the root.
-4) Add images under assets/gallery/<year>/ and list them in _data/gallery.yml.
+Changes in this version:
+- Fixed dropdown CSS scoping so the navbar dropdown cannot interfere with gallery elements.
+- Reordered navbar: Gallery before Past editions.
+- Added `assets/img/LemanTh.png` placeholder and placed it on the front page under the title.
+- Converted the front page to Markdown (`index.md`) to simplify edits.
 
-Notes:
-- The navbar includes in-page anchors (About, Registration, Schedule, Organisers), a click-to-open Past editions menu (2025, 2024), and a Gallery link.
-- The gallery page has a year selector and a minimal lightbox.
+Deploy:
+1) Unzip into the root of `leman-th.github.io` (replace existing files).
+2) Commit & push.
+3) Ensure GitHub Pages serves from the root of the default branch.
