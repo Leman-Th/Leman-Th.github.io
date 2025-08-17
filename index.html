@@ -1,5 +1,129 @@
 ---
 layout: default
-title: LemanTh 2026
+title: LemanTh — Lausanne event on Machine Learning and Neural Network Theory
 ---
-<h1>LemanTh 2026</h1><p>Bernoulli Center, EPFL — 20–24 April 2026</p>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1>LemanTh 2026</h1>
+      <p class="lead">Lausanne event on Machine Learning and Neural Network Theory</p>
+      <p class="meta">Bernoulli Center, EPFL — 20–24 April 2026</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#registration">Register</a>
+        <a class="btn btn-ghost" href="#about">Learn more</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container narrow">
+    <h2>About</h2>
+    <p>
+      LemanTh is an annual event in Lausanne bringing together researchers in machine learning theory, high-dimensional statistics, statistical physics, and theoretical computer science. The 2026 edition continues the tradition of focused discussions on expressivity, optimization, generalization, and phase transitions in modern ML systems.
+    </p>
+  </div>
+</section>
+
+<section id="registration" class="section alt">
+  <div class="container narrow">
+    <h2>Registration</h2>
+    <p>
+      Registration is handled via an external Google Form.
+    </p>
+    <p>
+      {% if site.registration_url and site.registration_url contains 'http' %}
+        <a class="btn btn-primary" href="{{ site.registration_url }}" target="_blank" rel="noopener">Open registration form ↗</a>
+      {% else %}
+        <span class="muted">Form link will appear here once available.</span>
+      {% endif %}
+    </p>
+
+    <ul class="card-list">
+      <li class="card">
+        <div class="card-body">
+          <h3>Important dates</h3>
+          <ul class="bullets">
+            <li>Registration opens: <strong>To be announced</strong></li>
+            <li>Registration closes: <strong>To be announced</strong></li>
+          </ul>
+        </div>
+      </li>
+      <li class="card">
+        <div class="card-body">
+          <h3>Fees</h3>
+          <p>To be announced.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="schedule" class="section">
+  <div class="container wide">
+    <h2>Schedule</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Speakers</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for day in site.data.schedule.days %}
+            {% for s in day.sessions %}
+              <tr>
+                <td>{{ day.name }}</td>
+                <td>{{ s.time }}</td>
+                <td>{{ s.title }}</td>
+                <td>{{ s.speakers }}</td>
+                <td>{{ s.location }}</td>
+              </tr>
+            {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="organisers" class="section alt">
+  <div class="container narrow">
+    <h2>Organisers</h2>
+    <ul class="people">
+      <li>
+        <div class="avatar" aria-hidden="true">BL</div>
+        <div>
+          <div class="person-name">Bruno Loureiro</div>
+          <div class="person-meta">CNRS & ENS; EPFL (host)</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="past" class="section">
+  <div class="container narrow">
+    <h2>Past editions</h2>
+    <p>Explore previous editions of LemanTh:</p>
+    <div class="cards-grid">
+      <a class="card link-card" href="https://leman-th.github.io/LemanTh2025/">
+        <div class="card-body">
+          <h3>LemanTh 2025</h3>
+          <p>Second edition focused on scaling laws, optimization, and inference.</p>
+        </div>
+      </a>
+      <a class="card link-card" href="https://leman-th.github.io/LemanTh2024/">
+        <div class="card-body">
+          <h3>LemanTh 2024</h3>
+          <p>Inaugural edition launching the LemanTh series in Lausanne.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

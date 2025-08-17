@@ -6,3 +6,14 @@ days:
         title: "Opening & Keynote"
         speakers: "tba"
         location: "Bernoulli Center"
+      - time: "11:00–12:30"
+        title: "Session A"
+        speakers: "tba"
+        location: "Bernoulli Center"
+  - name: Tue
+    date: 2026-04-21
+    sessions:
+      - time: "09:00–10:30"
+        title: "Session B"
+        speakers: "tba"
+        location: "Bernoulli Center"
