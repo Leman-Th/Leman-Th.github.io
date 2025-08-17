@@ -3,7 +3,7 @@
   function smoothScrollTo(id){const el=document.getElementById(id);if(!el)return;const y=el.getBoundingClientRect().top+window.pageYOffset-72;window.scrollTo({top:y,behavior:'smooth'});}
   document.addEventListener('click',function(e){const a=e.target.closest('a[href^="#"][href!="#"]');if(a&&a.getAttribute('href')){const id=a.getAttribute('href').slice(1);if(document.getElementById(id)){e.preventDefault();smoothScrollTo(id);}}});
 })();
-// Dropdown: click open/close
+// Dropdown
 (function(){const d=document.getElementById('past-dropdown');if(!d)return;const b=d.querySelector('.dropbtn');b.addEventListener('click',()=>{const o=d.classList.toggle('open');b.setAttribute('aria-expanded',String(o));});document.addEventListener('click',e=>{if(!d.contains(e.target)){d.classList.remove('open');b.setAttribute('aria-expanded','false');}});})();
 // Mobile nav toggle
 (function(){const t=document.querySelector('.nav-toggle');const l=document.querySelector('.nav-links');if(!t||!l)return;t.addEventListener('click',()=>{const o=l.classList.toggle('open');t.setAttribute('aria-expanded',String(o));});})();
