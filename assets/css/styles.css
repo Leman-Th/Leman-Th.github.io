@@ -49,6 +49,27 @@ h1,h2,h3{line-height:1.2} h1{font-size:32px;margin:16px 0} h2{font-size:24px;mar
   display: block;
 }
 
-/* (Optional: if you still have .caption elements around, hide them)
-.gallery-item .caption { display: none; }
-*/
+/* Lightbox (required for overlay) */
+.lightbox-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: none;                 /* hidden until opened */
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.lightbox-backdrop.open { display: flex; }
+
+.lightbox-content { max-width: 90vw; max-height: 90vh; }
+.lightbox-content img { width: 100%; height: auto; display: block; }
+
+.lightbox-close {
+  position: absolute;
+  top: 16px; right: 16px;
+  background: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
