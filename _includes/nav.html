@@ -1,18 +1,21 @@
 <header class="site-header">
   <div class="container nav-container">
     <a class="brand" href="/">LemanTh</a>
-
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
-
     <nav class="site-nav" role="navigation">
       <ul>
         {% for item in site.nav %}
           <li><a href="{{ item.href }}">{{ item.label }}</a></li>
         {% endfor %}
+        <li class="has-dropdown">
+          <button class="nav-btn" aria-haspopup="true" aria-expanded="false">Past editions</button>
+          <ul class="dropdown">
+            {% assign sorted = site.data.editions | sort: 'year' | reverse %}
+            {% for e in sorted %}<li><a href="{{ e.url }}">{{ e.year }}</a></li>{% endfor %}
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>
