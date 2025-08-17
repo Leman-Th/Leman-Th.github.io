@@ -13,9 +13,7 @@
           <span>Past editions</span>
           <ul>
             {% assign sorted = site.data.editions | sort: 'year' | reverse %}
-            {% for e in sorted %}
-              <li><a href="{{ e.url }}">{{ e.year }}</a></li>
-            {% endfor %}
+            {% for e in sorted %}<li><a href="{{ e.url }}">{{ e.year }}</a></li>{% endfor %}
           </ul>
         </li>
         <li><a href="/gallery/">Gallery</a></li>
