@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="container nav-container">
+    <a class="brand" href="/">LemanTh</a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav class="site-nav" role="navigation">
+      <ul>
+        {% for item in site.nav %}
+          <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

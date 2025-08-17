@@ -1,0 +1,23 @@
+title: "Lausanne event on Machine Learning and Neural Network Theory (LemanTh)"
+description: "Annual event on ML theory and neural networks at EPFL, Lausanne."
+url: "https://leman-th.github.io"
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+nav:
+  - label: About
+    href: "/#about"
+  - label: Registration
+    href: "/#registration"
+  - label: Schedule
+    href: "/#schedule"
+  - label: Organisers
+    href: "/#organisers"
+  - label: Past editions
+    href: "/past.html"
+  - label: Gallery
+    href: "/gallery.html"
+# Optional: set a registration form URL when ready; used in index.html
+registration_url: "https://forms.gle/REPLACE_WITH_FORM_ID"

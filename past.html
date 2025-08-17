@@ -1,0 +1,20 @@
+---
+layout: default
+title: Past editions — LemanTh
+---
+<section class="section">
+  <div class="container narrow">
+    <h1>Past editions</h1>
+    <div class="cards-grid">
+      {% for e in site.data.editions %}
+        <a class="card link-card" href="{{ e.url }}">
+          <div class="card-body">
+            <h3>{{ e.title }}</h3>
+            <p class="muted">{{ e.blurb }}</p>
+            <span class="tag">{{ e.year }}</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

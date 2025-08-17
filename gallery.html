@@ -1,0 +1,34 @@
+---
+layout: default
+title: Gallery — LemanTh
+---
+<section class="section">
+  <div class="container wide">
+    <h1>Gallery</h1>
+
+    <label for="year-select" class="muted">Select year</label>
+    <select id="year-select" class="year-select">
+      <option value="all">All years</option>
+      {% for block in site.data.gallery %}
+        <option value="{{ block.year }}">{{ block.year }}</option>
+      {% endfor %}
+    </select>
+
+    <div id="gallery" class="gallery-grid">
+      {% for block in site.data.gallery %}
+        {% assign yr = block.year %}
+        {% for img in block.images %}
+          <figure class="thumb" data-year="{{ yr }}">
+            <img loading="lazy" src="{{ '/assets/gallery/' | append: yr | append: '/' | append: img | relative_url }}" alt="LemanTh {{ yr }} photo"/>
+            <figcaption class="muted">{{ yr }}</figcaption>
+          </figure>
+        {% endfor %}
+      {% endfor %}
+    </div>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close">×</button>
+      <img id="lightbox-img" src="" alt="Large view" />
+    </div>
+  </div>
+</section>
