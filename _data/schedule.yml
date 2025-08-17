@@ -1,8 +1,0 @@
-days:
-  - name: Mon
-    date: 2026-04-20
-    sessions:
-      - time: "09:00–10:30"
-        title: "Opening & Keynote"
-        speakers: "tba"
-        location: "Bernoulli Center"

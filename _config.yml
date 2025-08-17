@@ -1,20 +1,13 @@
-title: "Lausanne event on Machine Learning and Neural Network Theory (LemanTh)"
-description: "Annual event on ML theory and neural networks at EPFL, Lausanne."
 url: "https://leman-th.github.io"
 baseurl: ""
+
+title: "Lausanne Event on Machine Learning and Neural Network Theory (LemanTh)"
+description: "Official website for the LemanTh event (most recent edition + links to past years)."
+
+plugins: []
+
+include:
+  - assets
+
 markdown: kramdown
-kramdown:
-  input: GFM
 permalink: pretty
-nav:
-  - label: About
-    href: "/#about"
-  - label: Registration
-    href: "/#registration"
-  - label: Schedule
-    href: "/#schedule"
-  - label: Organisers
-    href: "/#organisers"
-  - label: Gallery
-    href: "/gallery/"
-registration_url: "https://forms.gle/REPLACE_WITH_FORM_ID"
