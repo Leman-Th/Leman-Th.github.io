@@ -1,13 +1,13 @@
-LemanTh Root Website (Jekyll) — v2
+LemanTh Root Website (Jekyll) — v3
 ==================================
 
-Changes in this version:
-- Fixed dropdown CSS scoping so the navbar dropdown cannot interfere with gallery elements.
-- Reordered navbar: Gallery before Past editions.
-- Added `assets/img/LemanTh.png` placeholder and placed it on the front page under the title.
-- Converted the front page to Markdown (`index.md`) to simplify edits.
+What changed:
+- **Markdown rendering fixed**: `index.md` now uses pure Markdown with kramdown ID attributes (e.g., `## Schedule {: #schedule }`) instead of wrapping Markdown inside raw HTML blocks, which can suppress Markdown parsing.
+- Navbar order: Gallery before Past editions.
+- Banner placeholder at `assets/img/LemanTh.png` remains.
+- Dropdown CSS remains scoped to navbar.
 
 Deploy:
-1) Unzip into the root of `leman-th.github.io` (replace existing files).
+1) Unzip into the root of `leman-th.github.io`.
 2) Commit & push.
-3) Ensure GitHub Pages serves from the root of the default branch.
+3) If caching interferes, hard refresh or add `?v=3` to the URL.
