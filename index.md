@@ -102,6 +102,7 @@ TBA
     <tr><td>Galen Reeves</td><td>Duke</td></tr>
     <tr><td>Jamie Simon</td><td>Imbue</td></tr>
     <tr><td>Mahdi Soltanolkotabi</td><td>USC</td></tr>
+    <tr><td>Nati Srebro</td><td>USC</td></tr>
     <tr><td>Takashi Takahashi</td><td>Tokyo</td></tr>
     <tr><td>Nikolaos Tsilivis</td><td>NYU</td></tr>
     <tr><td>Matthieu Wyart</td><td>JHU / EPFL</td></tr>
