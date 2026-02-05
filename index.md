@@ -26,31 +26,31 @@ Over the past decade, machine learning has undergone a remarkable transformation
   </thead>
   <tbody>
     <tr>
-      <td><strong>Monday<br>April 20</strong></td>
+      <td><strong>Monday<br>(April 20)</strong></td>
       <td>Scientific Session</td>
       <td>Scientific Session</td>
       <td>—</td>
     </tr>
     <tr>
-      <td><strong>Tuesday<br>April 21</strong></td>
+      <td><strong>Tuesday<br>(April 21)</strong></td>
       <td>Scientific Session</td>
       <td>Scientific Session</td>
-      <td>Social Event (invited only)<br>Wannaz</td>
+      <td>Social Event (invited speakers)<br>Wannaz</td>
     </tr>
     <tr>
-      <td><strong>Wednesday<br>April 22</strong></td>
+      <td><strong>Wednesday<br>(April 22)</strong></td>
       <td>Scientific Session</td>
       <td>Scientific Session</td>
       <td>—</td>
     </tr>
     <tr>
-      <td><strong>Thursday<br>April 23</strong></td>
+      <td><strong>Thursday<br>(April 23)</strong></td>
       <td>Scientific Session</td>
-      <td>Social Event: Boat + Yvoire (invited only)</td>
-      <td>Social Event: Boat + Yvoire (invited only)</td>
+      <td>Social Event: Boat + Yvoire (invited speakers)</td>
+      <td>Social Event: Boat + Yvoire (invited speakers)</td>
     </tr>
     <tr>
-      <td><strong>Friday<br>April 24</strong></td>
+      <td><strong>Friday<br>(April 24)</strong></td>
       <td>Scientific Session</td>
       <td>Scientific Session</td>
       <td>—</td>
@@ -93,7 +93,6 @@ TBA
     <tr><td>Daniel Hsu</td><td>Columbia</td></tr>
     <tr><td>Brice Huang</td><td>Stanford</td></tr>
     <tr><td>Yoshiyuki Kabashima</td><td>Tokyo</td></tr>
-    <tr><td>Zahra Kadkhodaie</td><td>Flatiron</td></tr>
     <tr><td>Yue Lu</td><td>Harvard</td></tr>
     <tr><td>Pierre Marion</td><td>EPFL</td></tr>
     <tr><td>Courtney Paquette</td><td>McGill</td></tr>
