@@ -87,60 +87,29 @@ h1,h2,h3{line-height:1.2} h1{font-size:32px;margin:16px 0} h2{font-size:24px;mar
   cursor: pointer;
 }
 
-/* --- Schedule table (PSL-week-like) --- */
-:root{
-  --accent: #2563eb;         /* optional */
-  --border: #e2e8f0;         /* slate-200 */
-  --border-strong: #cbd5e1;  /* slate-300 */
-  --bg-hover: #f8fafc;       /* slate-50 */
-  --bg-head: #ffffff;
-  --text: #0f172a;           /* slate-900 */
-}
-
-.table-wrap{
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-}
-
-/* target only your schedule table */
-table.schedule{
+/* PSL-week-like tables (place at end so it overrides earlier table rules) */
+table{
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
+  margin-top: 1rem;
   font-size: 0.95rem;
-  color: var(--text);
-  margin: 0; /* so it sits nicely inside .table-wrap */
 }
 
-table.schedule th,
-table.schedule td{
+th, td{
   padding: 12px 14px;
+  border-bottom: 1px solid #e2e8f0;
   vertical-align: top;
-  border-bottom: 1px solid var(--border);
 }
 
-/* header */
-table.schedule thead th{
-  background: var(--bg-head);
+thead th{
+  position: sticky; /* optional */
+  top: 58px;        /* adjust if navbar height changes */
+  background: #ffffff;
+  border-bottom: 1px solid #cbd5e1;
   font-weight: 700;
-  border-bottom: 1px solid var(--border-strong);
 }
 
-/* subtle row hover */
-table.schedule tbody tr:hover{
-  background: var(--bg-hover);
-}
-
-/* rounded corners */
-table.schedule thead th:first-child{ border-top-left-radius: 14px; }
-table.schedule thead th:last-child{ border-top-right-radius: 14px; }
-.table-wrap table.schedule tbody tr:last-child td{ border-bottom: 0; }
-
-/* optional: sticky header (works best if you have a sticky navbar) */
-table.schedule thead th{
-  position: sticky;
-  top: 64px;  /* adjust to your navbar height */
-  z-index: 2;
+tbody tr:hover{
+  background: #f8fafc;
 }
