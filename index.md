@@ -3,7 +3,7 @@ layout: default
 title: LemanTh 2026
 ---
 
-<h1 id="about" class="section">LemanTh 2026</h1>
+# LemanTh 2026
 
 ![LemanTh banner]({{ '/assets/img/LemanTh.png' | relative_url }})
 
@@ -11,111 +11,60 @@ After two successful editions in 2024 and 2025, we are delighted to announce the
 
 Over the past decade, machine learning has undergone a remarkable transformation: algorithms now tackle problems and process volumes of data that, not long ago, belonged to the realm of science fiction. This year’s program will focus on the theoretical foundations of machine learning and neural networks, and their deep connections with high-dimensional statistics, statistical physics, and computer science. It will foster discussions at the crossroads of probability theory, statistical physics, optimization, and theoretical computer science.
 
-<h2 id="schedule" class="section">Schedule</h2>
+## Schedule
 
-<p><strong>Dates:</strong> Monday–Friday, April 20–24, 2026</p>
+**Dates:** Monday–Friday, April 20–24, 2026
 
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Morning<br>(09:00–12:00)</th>
-      <th>Afternoon<br>(14:00–16:00)</th>
-      <th>Evening</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Monday<br>(April 20)</strong></td>
-      <td>Scientific Session</td>
-      <td>Scientific Session</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td><strong>Tuesday<br>(April 21)</strong></td>
-      <td>Scientific Session</td>
-      <td>Scientific Session</td>
-      <td>Social Event (invited speakers)<br>Wannaz</td>
-    </tr>
-    <tr>
-      <td><strong>Wednesday<br>(April 22)</strong></td>
-      <td>Scientific Session</td>
-      <td>Scientific Session</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td><strong>Thursday<br>(April 23)</strong></td>
-      <td>Scientific Session</td>
-      <td>Social Event: Boat + Yvoire (invited speakers)</td>
-      <td>Social Event: Boat + Yvoire (invited speakers)</td>
-    </tr>
-    <tr>
-      <td><strong>Friday<br>(April 24)</strong></td>
-      <td>Scientific Session</td>
-      <td>Scientific Session</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
+| Day | Morning<br>(09:00–12:00) | Afternoon<br>(14:00–16:00) | Evening |
+|-----|--------------------------|----------------------------|---------|
+| **Monday<br>(April 20)** | Scientific Session | Scientific Session | — |
+| **Tuesday<br>(April 21)** | Scientific Session | Scientific Session | Social Event (invited speakers)<br>Wannaz |
+| **Wednesday<br>(April 22)** | Scientific Session | Scientific Session | — |
+| **Thursday<br>(April 23)** | Scientific Session | Social Event: Boat + Yvoire (invited speakers) | Social Event: Boat + Yvoire (invited speakers) |
+| **Friday<br>(April 24)** | Scientific Session | Scientific Session | — |
 
-<p>
-<strong>Thursday Social Event:</strong><br>
+
+**Thursday Social Event:**  
 Boat excursion, restaurant lunch, and visit of Yvoire.
-</p>
 
+## Registration
 
+Registration is **free**, but due to space constraints it is **mandatory** and on a first come, first served basis.
 
-<h2 id="registration" class="section">Registration</h2>
+You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 
-TBA
-
-<h2 id="venue">Venue</h2>
+## Venue
 
 [Bernoulli Center](https://bernoulli.epfl.ch/), EPFL, Lausanne.
 
-<h2 id="speakers">Invited speakers</h2>
+## Invited speakers
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Affiliation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Francis Bach</td><td>INRIA</td></tr>
-    <tr><td>Afonso Bandeira</td><td>ETHZ</td></tr>
-    <tr><td>Tony Bonnaire</td><td>Saclay</td></tr>
-    <tr><td>Claire Boyer</td><td>Orsay</td></tr>
-    <tr><td>Sanjit Dandapanthula</td><td>CMU</td></tr>
-    <tr><td>Babak Hassibi</td><td>Caltech</td></tr>
-    <tr><td>Niao He</td><td>ETHZ</td></tr>
-    <tr><td>Daniel Hsu</td><td>Columbia</td></tr>
-    <tr><td>Brice Huang</td><td>Stanford</td></tr>
-    <tr><td>Yoshiyuki Kabashima</td><td>Tokyo</td></tr>
-    <tr><td>Yue Lu</td><td>Harvard</td></tr>
-    <tr><td>Pierre Marion</td><td>EPFL</td></tr>
-    <tr><td>Courtney Paquette</td><td>McGill</td></tr>
-    <tr><td>Eliot Paquette</td><td>McGill</td></tr>
-    <tr><td>Francisco Pernice</td><td>MIT</td></tr>
-    <tr><td>Galen Reeves</td><td>Duke</td></tr>
-    <tr><td>Jamie Simon</td><td>Imbue</td></tr>
-    <tr><td>Mahdi Soltanolkotabi</td><td>USC</td></tr>
-    <tr><td>Nati Srebro</td><td>USC</td></tr>
-    <tr><td>Takashi Takahashi</td><td>Tokyo</td></tr>
-    <tr><td>Nikolaos Tsilivis</td><td>NYU</td></tr>
-    <tr><td>Matthieu Wyart</td><td>JHU / EPFL</td></tr>
-    <tr><td>Pan Zhang</td><td>Chinese Academy of Sciences</td></tr>
-  </tbody>
-</table>
+- Francis Bach (INRIA)  
+- Afonso Bandeira (ETHZ)  
+- Tony Bonnaire (Saclay)  
+- Claire Boyer (Orsay)  
+- Sanjit Dandapanthula (CMU)  
+- Babak Hassibi (Caltech)  
+- Niao He (ETHZ)  
+- Daniel Hsu (Columbia)  
+- Brice Huang (Stanford)  
+- Yoshiyuki Kabashima (Tokyo)  
+- Yue Lu (Harvard)  
+- Pierre Marion (EPFL)  
+- Courtney Paquette (McGill)  
+- Eliot Paquette (McGill)  
+- Francisco Pernice (MIT)  
+- Galen Reeves (Duke)  
+- Jamie Simon (Imbue)  
+- Mahdi Soltanolkotabi (USC)  
+- Nati Srebro (USC)  
+- Takashi Takahashi (Tokyo)  
+- Nikolaos Tsilivis (NYU)  
+- Matthieu Wyart (JHU / EPFL)  
+- Pan Zhang (Chinese Academy of Sciences)  
 
 
+## Organisers
 
-
-
-
-
-
-<h2 id="organisers" class="section">Organisers</h2>
-
-[Florent Krzakala](https://florentkrzakala.com/) (EPFL, IdePhics Lab.), and [Bruno Loureiro](https://brloureiro.github.io/) (DI-ENS & CNRS)
+[Florent Krzakala](https://florentkrzakala.com/) (EPFL, IdePhics Lab.), and  
+[Bruno Loureiro](https://brloureiro.github.io/) (DI-ENS & CNRS)
