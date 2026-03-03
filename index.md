@@ -15,6 +15,7 @@ Over the past decade, machine learning has undergone a remarkable transformation
 
 **Dates:** Monday–Friday, April 20–24, 2026
 
+<div class="table-wrap">
 | Day | Morning<br>(09:00–12:00) | Afternoon<br>(14:00–16:00) | Evening |
 |-----|--------------------------|----------------------------|---------|
 | **Monday<br>(April 20)** | Scientific Session | Scientific Session | — |
@@ -22,7 +23,8 @@ Over the past decade, machine learning has undergone a remarkable transformation
 | **Wednesday<br>(April 22)** | Scientific Session | Scientific Session | — |
 | **Thursday<br>(April 23)** | Scientific Session | Social Event: Boat + Yvoire (invited speakers) | Social Event: Boat + Yvoire (invited speakers) |
 | **Friday<br>(April 24)** | Scientific Session | Scientific Session | — |
-
+{: .schedule }
+</div>
 
 **Thursday Social Event:**  
 Boat excursion, restaurant lunch, and visit of Yvoire.
