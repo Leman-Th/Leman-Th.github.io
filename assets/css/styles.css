@@ -87,58 +87,29 @@ h1,h2,h3{line-height:1.2} h1{font-size:32px;margin:16px 0} h2{font-size:24px;mar
   cursor: pointer;
 }
 
-/* ===== PSL-week-like "separated zebra table" (scoped to .schedule) ===== */
-
-table.schedule{
+/* PSL-week-like tables (place at end so it overrides earlier table rules) */
+table{
   width: 100%;
-  border-collapse: separate;      /* key for row separation */
-  border-spacing: 0 10px;         /* vertical gap between rows */
+  border-collapse: separate;
+  border-spacing: 0;
   margin-top: 1rem;
   font-size: 0.95rem;
 }
 
-/* header */
-table.schedule thead th{
-  text-align: left;
-  font-weight: 700;
-  padding: 10px 14px;
-  border-bottom: 1px solid #cbd5e1;
-  background: transparent;        /* header sits above "cards" */
-}
-
-/* make each row feel like a "card" */
-table.schedule tbody tr td{
+th, td{
   padding: 12px 14px;
-  vertical-align: top;
-  border-top: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
+  vertical-align: top;
+}
+
+thead th{
+  position: sticky; /* optional */
+  top: 58px;        /* adjust if navbar height changes */
   background: #ffffff;
+  border-bottom: 1px solid #cbd5e1;
+  font-weight: 700;
 }
 
-/* zebra striping (alternating grey) */
-table.schedule tbody tr:nth-child(even) td{
-  background: #f8fafc;            /* light grey */
-}
-
-/* rounded corners per row */
-table.schedule tbody tr td:first-child{
-  border-left: 1px solid #e2e8f0;
-  border-top-left-radius: 12px;
-  border-bottom-left-radius: 12px;
-}
-table.schedule tbody tr td:last-child{
-  border-right: 1px solid #e2e8f0;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-}
-
-/* hover effect */
-table.schedule tbody tr:hover td{
-  background: #eef2ff;            /* slightly stronger highlight */
-}
-
-/* optional: keep first column a bit stronger */
-table.schedule tbody td:first-child{
-  font-weight: 600;
-  white-space: nowrap;
+tbody tr:hover{
+  background: #f8fafc;
 }
