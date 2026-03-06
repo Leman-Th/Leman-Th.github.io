@@ -50,7 +50,7 @@ You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 - Yoshiyuki Kabashima (Tokyo)  
 - Zahra Kadkhodaie (Flatiron & NYU)
 - Yue Lu (Harvard)  
-- Pierre Marion (EPFL)  
+- Pierre Marion (INRIA Paris)  
 - Courtney Paquette (McGill)  
 - Eliot Paquette (McGill)  
 - Francisco Pernice (MIT)  
@@ -64,5 +64,5 @@ You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 
 ## Organisers
 
-[Florent Krzakala](https://florentkrzakala.com/) (EPFL, IdePhics Lab.), and  
-[Bruno Loureiro](https://brloureiro.github.io/) (DI-ENS & CNRS)
+- [Florent Krzakala](https://florentkrzakala.com/) (EPFL, IdePhics Lab.)  
+- [Bruno Loureiro](https://brloureiro.github.io/) (CNRS & DI-ENS)
