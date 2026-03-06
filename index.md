@@ -56,7 +56,7 @@ You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 - Francisco Pernice (MIT)  
 - Galen Reeves (Duke)  
 - Mahdi Soltanolkotabi (USC)  
-- Nati Srebro (USC)  
+- Nati Srebro (TTIC)  
 - Takashi Takahashi (Tokyo)  
 - Nikolaos Tsilivis (NYU)  
 - Matthieu Wyart (JHU / EPFL)  
