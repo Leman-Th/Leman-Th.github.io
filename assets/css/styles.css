@@ -113,3 +113,38 @@ thead th{
 tbody tr:hover{
   background: #f8fafc;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.98rem;
+}
+
+table th,
+table td {
+  border: 1px solid #d0d0d0;
+  padding: 0.85rem 0.7rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table th {
+  background: #efefef;
+  font-weight: 700;
+}
+
+table tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+table tr:hover td {
+  background: #f3f6fb;
+}
+
+table td:first-child,
+table th:first-child {
+  font-weight: 700;
+  white-space: nowrap;
+  background: #f1f1f1;
+}
