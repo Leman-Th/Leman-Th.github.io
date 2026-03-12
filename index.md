@@ -15,7 +15,7 @@ Over the past decade, machine learning has undergone a remarkable transformation
 
 **Dates:** Monday–Friday, April 20–24, 2026
 
-| Time | Monday<br>(20/04) | Tuesday<br>(21/04) | Wednesday<br>(22/04) | Thursday<br>(23/04) | Friday<br>(24/04) |
+<!-- | Time | Monday<br>(20/04) | Tuesday<br>(21/04) | Wednesday<br>(22/04) | Thursday<br>(23/04) | Friday<br>(24/04) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | **9:00–9:45** | Yue Lu | Francis Bach | Sanjit Dandapanthula | Francisco Pernice | Takashi Takahashi |
 | **9:45–10:30** | Babak Hassibi | Daniel Hsu | Pierre Marion | Brice Huang |  |
@@ -23,21 +23,21 @@ Over the past decade, machine learning has undergone a remarkable transformation
 | **11:00–11:45** | Courtney Paquette | Nathan Srebro | Tony Bonnaire | Galen Reeves |  |
 | **11:45–12:30** | Niao He | Mahdi Soltanolkotabi | Yoshiyuki Kabashima |  |  |
 | **12:30–14:00** | **Lunch break** | **Lunch break** | **Lunch break** | Trip to Yvoire<br>(invited speakers)<br>Leaving from Bernoulli 12:20 |  |
-| **14:00–14:45** | Zahra Kadkhodaie | Afonso Bandeira | Eliot Paquette | Trip to Yvoire<br>(invited speakers) |  |
-| **14:45–15:45** | Nikolaos Tsilivis |  |  | Trip to Yvoire<br>(invited speakers) |  |
-| **15:45–16:15** |  |  | **Poster session** | Trip to Yvoire<br>(invited speakers) |  |
-| **16:15–17:00** |  |  | **Poster session** | Trip to Yvoire<br>(invited speakers) |  |
+| **14:00–14:45** | Zahra Kadkhodaie | Afonso Bandeira | Eliot Paquette | |  |
+| **14:45–15:45** | Nikolaos Tsilivis |  |  |  |  |
+| **15:45–16:15** |  |  | **Poster session** |  |  |
+| **16:15–17:00** |  |  | **Poster session** |  |  |
 | **17:00–17:45** |  |  |  |  |  |
-| **18:00–21:00** |  | Conference dinner at Wannaz<br>(invited speakers) |  |  |  |
+| **18:00–21:00** |  | Conference dinner at Wannaz<br>(invited speakers) |  |  |  | -->
 
 
-<!-- | Day | Morning<br>(09:00–12:00) | Afternoon<br>(14:00–16:00) | Evening |
+| Day | Morning<br>(09:00–12:00) | Afternoon<br>(14:00–16:00) | Evening |
 |-----|--------------------------|----------------------------|---------|
 | **Monday<br>(April 20)** | Scientific Session | Scientific Session | — |
 | **Tuesday<br>(April 21)** | Scientific Session | Scientific Session | Social Event (invited speakers)<br>Wannaz |
 | **Wednesday<br>(April 22)** | Scientific Session | Scientific Session | — |
 | **Thursday<br>(April 23)** | Scientific Session | Social Event: Boat + Yvoire (invited speakers) | Social Event: Boat + Yvoire (invited speakers) |
-| **Friday<br>(April 24)** | Scientific Session | Scientific Session | — | -->
+| **Friday<br>(April 24)** | Scientific Session | Scientific Session | — |
 
 
 **Thursday Social Event:**  
