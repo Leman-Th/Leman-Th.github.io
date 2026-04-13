@@ -17,14 +17,14 @@ Over the past decade, machine learning has undergone a remarkable transformation
 
 | Time | Monday<br>(20/04) | Tuesday<br>(21/04) | Wednesday<br>(22/04) | Thursday<br>(23/04) | Friday<br>(24/04) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **9:00–9:45** | Yue Lu | Francis Bach | Sanjit Dandapanthula | Francisco Pernice | Takashi Takahashi |
-| **9:45–10:30** | Babak Hassibi | Nathan Srebro | Pierre Marion | Brice Huang | Antoine Maillard |
+| **9:00–9:45** | Yue Lu | Francis Bach | Sanjit Dandapanthula | Takashi Takahashi | Francisco Pernice |
+| **9:45–10:30** | Babak Hassibi | Lenka Zdeborová | Pierre Marion | Brice Huang | Antoine Maillard |
 | **10:30–11:00** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** |
 | **11:00–11:45** | Courtney Paquette |  Matthieu Wyart | Tony Bonnaire | Galen Reeves | Maasaki Imaizumi |
 | **11:45–12:30** | Niao He | Mahdi Soltanolkotabi | Yoshiyuki Kabashima | Trip to Yvoire<br>(invited speakers)<br>Leaving from Bernoulli 12:20 |  |
 | **12:30–14:00** | **Lunch break** | **Lunch break** | **Lunch break** |  |  |
 | **14:00–14:45** | Zahra Kadkhodaie | Afonso Bandeira | Eliot Paquette | |  |
-| **14:45–15:30** | Nikolaos Tsilivis | Eric Vanden-Eijnden | Lenaic Chizat |  |  |
+| **14:45–15:30** | Nikolaos Tsilivis | Nathan Srebro | Lenaic Chizat |  |  |
 | **15:30–16:00** | **Break** | **Break** | **Poster session** |  |  |
 | **16:00–16:45** | Hugo Cui | Yatin Dandi | **Poster session** |  |  |
 | **18:00–21:00** |  | Conference dinner at Wannaz<br>(invited speakers) |  |  |  |
@@ -78,9 +78,10 @@ You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 - Takashi Takahashi (Tokyo)  
 - Nikolaos Tsilivis (NYU)  
 - Matthieu Wyart (JHU / EPFL) 
-- Eric Vanden-Eijnden (CFM & NYU) 
+- Lenka Zdeborová (EPFL) 
 
 ## Organisers
 
 - [Florent Krzakala](https://florentkrzakala.com/) (EPFL, IdePhics Lab.)  
 - [Bruno Loureiro](https://brloureiro.github.io/) (CNRS & DI-ENS)
+- [Matteo Vilucchio](https://mvilucchio.github.io/) (EPFL, IdePhics Lab.)
