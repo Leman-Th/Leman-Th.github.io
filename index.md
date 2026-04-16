@@ -21,7 +21,7 @@ Over the past decade, machine learning has undergone a remarkable transformation
 | **9:45–10:30** | Babak Hassibi | Lenka Zdeborová | Pierre Marion | Brice Huang | Antoine Maillard |
 | **10:30–11:00** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** |
 | **11:00–11:45** | Courtney Paquette |  Matthieu Wyart | Tony Bonnaire | Galen Reeves | Maasaki Imaizumi |
-| **11:45–12:30** | Niao He | Mahdi Soltanolkotabi | Yoshiyuki Kabashima | Trip to Yvoire<br>(invited speakers)<br>Leaving from Bernoulli 12:20 |  |
+| **11:45–12:30** | Niao He | Mahdi Soltanolkotabi | Yoshiyuki Kabashima | Trip to Yvoire<br>(invited speakers)<br>Leaving from Bernoulli 12:20 |  | Emanuele Troiani
 | **12:30–14:00** | **Lunch break** | **Lunch break** | **Lunch break** |  |  |
 | **14:00–14:45** | Zahra Kadkhodaie | Afonso Bandeira | Eliot Paquette | |  |
 | **14:45–15:30** | Nikolaos Tsilivis | Nathan Srebro | Lenaic Chizat |  |  |
@@ -75,7 +75,7 @@ You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 - Galen Reeves (Duke)  
 - Mahdi Soltanolkotabi (USC)  
 - Nati Srebro (TTIC)
-- Emmanuele Troiani (EPFL)
+- Emanuele Troiani (EPFL)
 - Takashi Takahashi (Tokyo)  
 - Nikolaos Tsilivis (NYU)  
 - Matthieu Wyart (JHU / EPFL) 
