@@ -17,10 +17,10 @@ Over the past decade, machine learning has undergone a remarkable transformation
 
 | Time | Monday<br>(20/04) | Tuesday<br>(21/04) | Wednesday<br>(22/04) | Thursday<br>(23/04) | Friday<br>(24/04) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **9:00–9:45** | Yue Lu | Francis Bach | Sanjit Dandapanthula | Takashi Takahashi | Francisco Pernice |
-| **9:45–10:30** | Babak Hassibi | Lenka Zdeborová | Pierre Marion | Brice Huang | Antoine Maillard |
+| **9:00–9:45** | Yue Lu | Francis Bach | Sanjit Dandapanthula | Takashi Takahashi | Maasaki Imaizumi |
+| **9:45–10:30** | Babak Hassibi | Lenka Zdeborová | Pierre Marion | Brice Huang | Francisco Pernice |
 | **10:30–11:00** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** |
-| **11:00–11:45** | Courtney Paquette |  Matthieu Wyart | Tony Bonnaire | Galen Reeves | Maasaki Imaizumi |
+| **11:00–11:45** | Courtney Paquette |  Matthieu Wyart | Tony Bonnaire | Galen Reeves | Antoine Maillard |
 | **11:45–12:30** | Niao He | Mahdi Soltanolkotabi | Yoshiyuki Kabashima | Trip to Yvoire<br>(invited speakers)<br>Leaving from Bernoulli 12:20 |  |
 | **12:30–14:00** | **Lunch break** | **Lunch break** | **Lunch break** |  |  |
 | **14:00–14:45** | Zahra Kadkhodaie | Afonso Bandeira | Eliot Paquette | |  |
