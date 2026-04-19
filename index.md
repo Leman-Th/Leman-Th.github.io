@@ -20,7 +20,7 @@ Over the past decade, machine learning has undergone a remarkable transformation
 | **9:00–9:45** | Yue Lu | Francis Bach | Sanjit Dandapanthula | Takashi Takahashi | Maasaki Imaizumi |
 | **9:45–10:30** | Babak Hassibi | Lenka Zdeborová | Pierre Marion | Brice Huang | Francisco Pernice |
 | **10:30–11:00** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** | **Coffee break** |
-| **11:00–11:45** | Courtney Paquette |  Matthieu Wyart | Tony Bonnaire | Galen Reeves | Antoine Maillard |
+| **11:00–11:45** | Courtney Paquette |  Matthieu Wyart | Raphael Urfin | Galen Reeves | Antoine Maillard |
 | **11:45–12:30** | Niao He | Mahdi Soltanolkotabi | Yoshiyuki Kabashima | Trip to Yvoire<br>(invited speakers)<br>Leaving from Bernoulli 12:20 | Emanuele Troiani |
 | **12:30–14:00** | **Lunch break** | **Lunch break** | **Lunch break** |  |  |
 | **14:00–14:45** | Zahra Kadkhodaie | Afonso Bandeira | Eliot Paquette | |  |
@@ -56,7 +56,6 @@ You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 
 - Francis Bach (INRIA Paris)  
 - Afonso Bandeira (ETHZ)  
-- Tony Bonnaire (Saclay) 
 - Lenaic Chizat (EPFL)
 - Hugo Cui (Orsay) 
 - Sanjit Dandapanthula (CMU)  
@@ -78,6 +77,7 @@ You can register [here](https://forms.gle/u8RTiDWAuk2sJFAi7).
 - Emanuele Troiani (EPFL)
 - Takashi Takahashi (Tokyo)  
 - Nikolaos Tsilivis (NYU)  
+- Raphael Urfin (ENS)
 - Matthieu Wyart (JHU / EPFL) 
 - Lenka Zdeborová (EPFL) 
 
