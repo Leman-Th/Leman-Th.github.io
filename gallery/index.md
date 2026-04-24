@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gallery
-years: [2025, 2024]
+years: [2026, 2025, 2024]
 ---
 
 # Photo Gallery
