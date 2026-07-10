@@ -7,9 +7,11 @@ title: LemanTh 2027
 
 ![LemanTh banner]({{ '/assets/img/logo2027.png' | relative_url }})
 
-After two successful editions in 2024 and 2025, we are delighted to announce the third edition of the **Lausanne Event on Machine Learning and Neural Network Theory (LemanTh)**, which will be held at the Bernoulli Centre at EPFL from **20–24 April 2026**.
+After three successful editions in 2024, 2025 and 2026, we are delighted to announce the fourth edition of the **Lausanne Event on Machine Learning and Neural Network Theory (LemanTh)**, which will be held at the Bernoulli Centre at EPFL from **3–7 May 2027**.
 
-Over the past decade, machine learning has undergone a remarkable transformation: algorithms now tackle problems and process volumes of data that, not long ago, belonged to the realm of science fiction. This year’s program will focus on the theoretical foundations of machine learning and neural networks, and their deep connections with high-dimensional statistics, statistical physics, and computer science. It will foster discussions at the crossroads of probability theory, statistical physics, optimization, and theoretical computer science.
+Recent years have witnessed extraordinary progress in artificial intelligence. Foundation models, large language models, and generative AI systems now display capabilities that have transformed scientific research, engineering, and society at an unprecedented pace. Yet our theoretical understanding has struggled to keep up with these empirical advances. Why do these systems generalize so well? How do they acquire representations, reason over long contexts, and exhibit new capabilities as they scale? What are the fundamental limits of learning, inference, and reliable decision-making in modern AI?
+
+The 2027 edition of LemanTh will bring together researchers working on the mathematical foundations of modern machine learning to address these questions. The program will highlight recent advances in the theory of large-scale AI systems, including scaling laws, representation learning, in-context learning, generative modeling, uncertainty quantification, optimization, and learning dynamics. As in previous editions, the meeting will emphasize the fruitful interactions between machine learning theory, high-dimensional statistics, probability, statistical physics, optimization, and theoretical computer science, fostering a collaborative environment for deep technical discussions across disciplines.
 
 ## Registration
 

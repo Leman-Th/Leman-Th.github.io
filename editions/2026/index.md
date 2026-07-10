@@ -5,7 +5,7 @@ title: LemanTh 2026
 
 # LemanTh 2026
 
-![LemanTh banner]({{ '/assets/img/2026/logo2026.png' | relative_url }})
+![LemanTh banner]({{ '../../assets/img/logo2026.png' | relative_url }})
 
 After two successful editions in 2024 and 2025, we are delighted to announce the third edition of the **Lausanne Event on Machine Learning and Neural Network Theory (LemanTh)**, which will be held at the Bernoulli Centre at EPFL from **20–24 April 2026**.
 
