@@ -23,7 +23,17 @@ TBC
 
 ## Invited speakers
 
-TBC
+- Claire Boyer (Orsay)
+- Fanghui Liu (Jiao Tong)
+- Lei Wu (Peking)
+- Stefano Sarao Mannelli (Chalmers)
+- Murat Erdogdu	(Toronto)
+- Jean-Christophe Mourrat (ENS Lyon)
+- Gabriel Peyré	(ENS Paris)
+- Julia Kempe (NYU)
+- Theodor Misiakiewicz (Yale)
+- Lorenzo Rosasco (Genova)
+- Stéphane Mallat (ENS Paris)
 
 ## Organisers
 
