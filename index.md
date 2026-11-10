@@ -34,6 +34,7 @@ TBC
 - Theodor Misiakiewicz (Yale)
 - Lorenzo Rosasco (Genova)
 - Stéphane Mallat (ENS Paris)
+- Sebastian Goldt (SISSA)
 
 ## Organisers
 
